@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 import { FaBars } from 'react-icons/fa6';
 import SearcBar from './SearchBar'
-import NavIcons from './NavIcons'
+
 
 interface Props {
     openNav:() => void
@@ -44,7 +44,7 @@ const Navbar = ({openNav}:Props ) => {
     {/*Right*/}
     <div className="w-2/3 xl:w-1/2 flex justify-between items-center gap-8">
       <SearcBar />
-      <NavIcons />
+      
     </div>
   </div>
 </div>
